@@ -18,6 +18,9 @@
 //    Define the set of words in all Unix standard include files.
 //    It can be done by the command
 //        cat /usr/include/*.h | ./wordfreq
+// 3) the command
+//        wordfreq -p input_file
+//   give 20 the most popular words in text
 //
 #include <stdio.h>
 #include <string.h>
@@ -334,6 +337,9 @@ static void printHelp() {
         "    wordfreq [input_file]\n"
         "The program reads a text either from a file\n"
         "or from standard input stream, depending on how it is called.\n\n"
+        "Usage:\n"
+        "    wordfreq -p [input_file]\n"
+        "The program gives 20 the most popular words\n"
         "EXAMPLES:\n"
         "1) the command\n"
         "       ./wordfreq input_file\n"
