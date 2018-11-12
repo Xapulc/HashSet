@@ -1,0 +1,6 @@
+cmake-build-debug
+ex.txt
+.idea
+micros.dir
+*.o
+wordfreq
